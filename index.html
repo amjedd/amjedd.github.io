@@ -3,7 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amjed Mohammed - Senior Software Engineer</title>
+    <title>Amjed Mohammed - Senior Software Engineer (.NET | Angular)</title>
+    <meta name="description" content="Amjed Mohammed, Senior Software Engineer with 10+ years experience in .NET, Angular, and SQL. Based in Riyadh, KSA.">
+    <meta name="keywords" content="Amjed Mohammed, Senior Software Engineer, .NET Developer, Angular Developer, Full Stack Developer, Software Developer Riyadh, ASP.NET MVC, ASP.NET API">
+    <meta name="author" content="Amjed Mohammed">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Amjed Mohammed - Senior Software Engineer">
+    <meta property="og:description" content="Experienced Senior Software Engineer specializing in .NET, Angular & SQL with 10+ years of experience">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://amjedd.github.io/">
+    <meta property="og:image" content="https://amjedd.github.io/profile.jpg">
+    
+    <!-- Canonical Link -->
+    <link rel="canonical" href="https://amjedd.github.io/">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
@@ -384,66 +398,47 @@
             text-align: center;
         }
         
-        .contact-container {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-        
         .contact-info {
-            flex: 1;
-            min-width: 300px;
+            max-width: 600px;
+            margin: 0 auto;
         }
         
         .contact-info h3 {
             color: var(--primary-color);
             margin-bottom: 20px;
+            text-align: center;
         }
         
         .contact-info-item {
             display: flex;
             align-items: center;
             margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            transition: all 0.3s ease;
+        }
+        
+        .contact-info-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
         }
         
         .contact-info-item i {
             font-size: 24px;
             color: var(--primary-color);
             margin-right: 15px;
+            min-width: 30px;
+            text-align: center;
         }
         
-        .contact-form {
-            flex: 1;
-            min-width: 300px;
+        .contact-info-item p {
+            font-size: 18px;
         }
         
-        .contact-form h3 {
-            color: var(--primary-color);
-            margin-bottom: 20px;
-        }
-        
-        .form-group {
-            margin-bottom: 20px;
-        }
-        
-        .form-group label {
-            display: block;
-            margin-bottom: 8px;
+        .contact-info-item a {
             font-weight: 600;
-        }
-        
-        .form-group input,
-        .form-group textarea {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ddd;
-            border-radius: var(--border-radius);
-            font-size: 16px;
-        }
-        
-        .form-group textarea {
-            height: 150px;
-            resize: vertical;
         }
         
         /* Footer */
@@ -752,51 +747,27 @@
     <section class="contact" id="contact">
         <div class="container">
             <h2>Get In Touch</h2>
-            <div class="contact-container">
-                <div class="contact-info">
-                    <h3>Contact Information</h3>
-                    <div class="contact-info-item">
-                        <i class="fas fa-envelope"></i>
-                        <p>amjed.hamud@gmail.com</p>
-                    </div>
-                    <div class="contact-info-item">
-                        <i class="fas fa-phone"></i>
-                        <p>+966 532224509</p>
-                    </div>
-                    <div class="contact-info-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <p>Riyadh, Saudi Arabia</p>
-                    </div>
-                    <div class="contact-info-item">
-                        <i class="fab fa-github"></i>
-                        <p><a href="https://github.com/amjedd" target="_blank">github.com/amjedd</a></p>
-                    </div>
-                    <div class="contact-info-item">
-                        <i class="fab fa-linkedin"></i>
-                        <p><a href="https://linkedin.com/in/amjedd" target="_blank">linkedin.com/in/amjedd</a></p>
-                    </div>
+            <div class="contact-info" style="max-width: 600px; margin: 0 auto;">
+                <h3>Contact Information</h3>
+                <div class="contact-info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>amjed.hamud@gmail.com</p>
                 </div>
-                <div class="contact-form">
-                    <h3>Send Me a Message</h3>
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn">Send Message</button>
-                    </form>
+                <div class="contact-info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+966 532224509</p>
+                </div>
+                <div class="contact-info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Riyadh, Saudi Arabia</p>
+                </div>
+                <div class="contact-info-item">
+                    <i class="fab fa-github"></i>
+                    <p><a href="https://github.com/amjedd" target="_blank">github.com/amjedd</a></p>
+                </div>
+                <div class="contact-info-item">
+                    <i class="fab fa-linkedin"></i>
+                    <p><a href="https://linkedin.com/in/amjedd" target="_blank">linkedin.com/in/amjedd</a></p>
                 </div>
             </div>
         </div>
@@ -808,6 +779,37 @@
             <p>&copy; 2025 Amjed Mohammed. All Rights Reserved.</p>
         </div>
     </footer>
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Amjed Mohammed",
+            "jobTitle": "Senior Software Engineer",
+            "telephone": "+966532224509",
+            "email": "amjed.hamud@gmail.com",
+            "url": "https://amjedd.github.io",
+            "sameAs": [
+                "https://github.com/amjedd",
+                "https://linkedin.com/in/amjedd"
+            ],
+            "knowsAbout": [".NET", "Angular", "ASP.NET MVC", "ASP.NET API", "SQL Server", "MySQL", "Software Architecture"],
+            "workLocation": {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Riyadh",
+                    "addressCountry": "Saudi Arabia"
+                }
+            },
+            "alumniOf": {
+                "@type": "EducationalOrganization",
+                "name": "University of Science and Technology",
+                "department": "Faculty of Engineering"
+            }
+        }
+    </script>
 
     <script>
         // Smooth scrolling for anchor links
@@ -821,13 +823,7 @@
             });
         });
 
-        // Form submission (placeholder)
-        const form = document.querySelector('form');
-        form.addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Message sent! (This is just a demo, no actual message was sent)');
-            form.reset();
-        });
+        // No form to submit
     </script>
 </body>
 </html>
