@@ -1,0 +1,6 @@
+# Keep container-deploy files out of the published GitHub Pages site.
+# They are only used when the repo is built as a Docker image.
+exclude:
+  - Dockerfile
+  - nginx.conf
+  - .dockerignore
