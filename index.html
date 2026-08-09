@@ -3,827 +3,793 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amjed Mohammed - Senior Software Engineer (.NET | Angular)</title>
-    <meta name="description" content="Amjed Mohammed, Senior Software Engineer with 10+ years experience in .NET, Angular, and SQL. Based in Riyadh, KSA.">
-    <meta name="keywords" content="Amjed Mohammed, Senior Software Engineer, .NET Developer, Angular Developer, Full Stack Developer, Software Developer Riyadh, ASP.NET MVC, ASP.NET API">
+    <title>Amjed Mohammed — Senior Software Engineer &amp; Solutions Architect</title>
+    <meta name="description" content="Amjed Mohammed — Senior Software Engineer and Solutions Architect in Riyadh, KSA. 10+ years building enterprise web platforms, SaaS products and AI-integrated systems with ASP.NET Core, Angular and Flutter.">
+    <meta name="keywords" content="Amjed Mohammed, Senior Software Engineer, Solutions Architect, ASP.NET Core, Angular Developer, Flutter, Microservices, Riyadh, Saudi Arabia, GRC, SaaS, AI Integration">
     <meta name="author" content="Amjed Mohammed">
-    
-    <!-- Open Graph / Social Media Meta Tags -->
-    <meta property="og:title" content="Amjed Mohammed - Senior Software Engineer">
-    <meta property="og:description" content="Experienced Senior Software Engineer specializing in .NET, Angular & SQL with 10+ years of experience">
+    <meta name="theme-color" content="#070b14">
+
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="Amjed Mohammed — Senior Software Engineer &amp; Solutions Architect">
+    <meta property="og:description" content="10+ years designing and delivering enterprise web platforms, SaaS products and AI-integrated systems for the Saudi market.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://amjedd.github.io/">
-    <meta property="og:image" content="https://amjedd.github.io/profile.jpg">
-    
-    <!-- Canonical Link -->
-    <link rel="canonical" href="https://amjedd.github.io/">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        :root {
-            --primary-color: #0a66c2;
-            --secondary-color: #292b2c;
-            --light-color: #f8f9fa;
-            --dark-color: #343a40;
-            --success-color: #28a745;
-            --border-radius: 5px;
-            --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        
-        body {
-            line-height: 1.6;
-            color: var(--dark-color);
-            background-color: var(--light-color);
-        }
-        
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px 0;
-        }
-        
-        section {
-            margin-bottom: 60px;
-        }
-        
-        h1, h2, h3, h4 {
-            margin-bottom: 15px;
-            color: var(--dark-color);
-        }
-        
-        ul {
-            list-style-type: none;
-        }
-        
-        a {
-            text-decoration: none;
-            color: var(--primary-color);
-            transition: all 0.3s ease;
-        }
-        
-        a:hover {
-            color: #083e76;
-        }
-        
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            border-radius: var(--border-radius);
-            background-color: var(--primary-color);
-            color: white;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-        
-        .btn:hover {
-            background-color: #083e76;
-            color: white;
-        }
-        
-        /* Header Styles */
-        header {
-            background-color: white;
-            box-shadow: var(--box-shadow);
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-        }
-        
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 0;
-        }
-        
-        .logo a {
-            font-size: 24px;
-            font-weight: 700;
-            color: var(--dark-color);
-        }
-        
-        .logo a span {
-            color: var(--primary-color);
-        }
-        
-        .nav-links {
-            display: flex;
-        }
-        
-        .nav-links li {
-            margin-left: 30px;
-        }
-        
-        .nav-links a {
-            font-weight: 600;
-        }
-        
-        /* Hero Section */
-        .hero {
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            background-color: white;
-            margin-top: 70px;
-        }
-        
-        .hero-content {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        
-        .hero-text {
-            flex: 1;
-            padding-right: 30px;
-        }
-        
-        .hero-text h1 {
-            font-size: 48px;
-            margin-bottom: 20px;
-            line-height: 1.2;
-        }
-        
-        .hero-text h1 span {
-            color: var(--primary-color);
-        }
-        
-        .hero-text p {
-            font-size: 18px;
-            margin-bottom: 30px;
-            color: #666;
-        }
-        
-        .hero-image {
-            flex: 1;
-            text-align: center;
-        }
-        
-        .hero-image img {
-            width: 300px;
-            height: 300px;
-            border-radius: 50%;
-            object-fit: cover;
-            box-shadow: var(--box-shadow);
-        }
-        
-        .social-links {
-            display: flex;
-            margin-top: 20px;
-        }
-        
-        .social-links a {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 40px;
-            height: 40px;
-            background-color: var(--primary-color);
-            border-radius: 50%;
-            margin-right: 15px;
-            color: white;
-            font-size: 20px;
-            transition: all 0.3s ease;
-        }
-        
-        .social-links a:hover {
-            transform: translateY(-5px);
-            background-color: #083e76;
-        }
-        
-        /* About Section */
-        .about {
-            background-color: white;
-            padding: 80px 0;
-            border-radius: var(--border-radius);
-            box-shadow: var(--box-shadow);
-        }
-        
-        .about-content {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        
-        .about-text {
-            flex: 1;
-        }
-        
-        .about-text h2 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-        
-        .about-text p {
-            margin-bottom: 20px;
-        }
-        
-        /* Experience Section */
-        .experience {
-            background-color: white;
-            padding: 80px 0;
-            border-radius: var(--border-radius);
-            box-shadow: var(--box-shadow);
-        }
-        
-        .experience h2 {
-            font-size: 36px;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-        
-        .timeline {
-            position: relative;
-            max-width: 900px;
-            margin: 0 auto;
-        }
-        
-        .timeline::after {
-            content: '';
-            position: absolute;
-            width: 2px;
-            background-color: var(--primary-color);
-            top: 0;
-            bottom: 0;
-            left: 50%;
-            margin-left: -1px;
-        }
-        
-        .timeline-item {
-            position: relative;
-            margin: 40px 0;
-        }
-        
-        .timeline-item::after {
-            content: '';
-            clear: both;
-            display: table;
-        }
-        
-        .timeline-item .timeline-content {
-            position: relative;
-            width: 45%;
-            padding: 20px;
-            background-color: #f8f9fa;
-            border-radius: var(--border-radius);
-            box-shadow: var(--box-shadow);
-        }
-        
-        .timeline-item:nth-child(odd) .timeline-content {
-            float: left;
-        }
-        
-        .timeline-item:nth-child(even) .timeline-content {
-            float: right;
-        }
-        
-        .timeline-content h3 {
-            margin-bottom: 10px;
-            color: var(--primary-color);
-        }
-        
-        .timeline-content .date {
-            font-size: 14px;
-            color: #888;
-            margin-bottom: 15px;
-        }
-        
-        .timeline-content .company {
-            font-weight: 600;
-            margin-bottom: 15px;
-            color: var(--dark-color);
-        }
-        
-        .timeline-content .company i {
-            margin-right: 5px;
-            color: var(--primary-color);
-        }
-        
-        .timeline-content .location {
-            font-size: 14px;
-            color: #888;
-            margin-bottom: 15px;
-        }
-        
-        .timeline-content .location i {
-            margin-right: 5px;
-            color: var(--primary-color);
-        }
-        
-        .timeline-content ul {
-            margin-top: 15px;
-        }
-        
-        .timeline-content ul li {
-            margin-bottom: 8px;
-            position: relative;
-            padding-left: 20px;
-        }
-        
-        .timeline-content ul li::before {
-            content: '•';
-            position: absolute;
-            left: 0;
-            color: var(--primary-color);
-        }
-        
-        /* Skills Section */
-        .skills {
-            background-color: white;
-            padding: 80px 0;
-            border-radius: var(--border-radius);
-            box-shadow: var(--box-shadow);
-        }
-        
-        .skills h2 {
-            font-size: 36px;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-        
-        .skills-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 30px;
-        }
-        
-        .skill-category {
-            background-color: #f8f9fa;
-            padding: 20px;
-            border-radius: var(--border-radius);
-            box-shadow: var(--box-shadow);
-        }
-        
-        .skill-category h3 {
-            color: var(--primary-color);
-            margin-bottom: 15px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid var(--primary-color);
-        }
-        
-        .skill-category ul li {
-            margin-bottom: 8px;
-            position: relative;
-            padding-left: 20px;
-        }
-        
-        .skill-category ul li::before {
-            content: '•';
-            position: absolute;
-            left: 0;
-            color: var(--primary-color);
-        }
-        
-        /* Contact Section */
-        .contact {
-            background-color: white;
-            padding: 80px 0;
-            border-radius: var(--border-radius);
-            box-shadow: var(--box-shadow);
-        }
-        
-        .contact h2 {
-            font-size: 36px;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-        
-        .contact-info {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        
-        .contact-info h3 {
-            color: var(--primary-color);
-            margin-bottom: 20px;
-            text-align: center;
-        }
-        
-        .contact-info-item {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
-            padding: 15px;
-            background-color: #f8f9fa;
-            border-radius: var(--border-radius);
-            box-shadow: var(--box-shadow);
-            transition: all 0.3s ease;
-        }
-        
-        .contact-info-item:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        }
-        
-        .contact-info-item i {
-            font-size: 24px;
-            color: var(--primary-color);
-            margin-right: 15px;
-            min-width: 30px;
-            text-align: center;
-        }
-        
-        .contact-info-item p {
-            font-size: 18px;
-        }
-        
-        .contact-info-item a {
-            font-weight: 600;
-        }
-        
-        /* Footer */
-        footer {
-            background-color: var(--dark-color);
-            color: white;
-            padding: 30px 0;
-            text-align: center;
-        }
-        
-        footer p {
-            margin-bottom: 0;
-        }
-        
-        /* Responsive Design */
-        @media (max-width: 992px) {
-            .hero-content {
-                flex-direction: column;
-                text-align: center;
+    <meta property="og:url" content="https://amjedd.com/">
+    <meta property="og:image" content="https://amjedd.com/assets/img/og-cover.jpg">
+    <meta property="og:image:alt" content="Amjed Mohammed — Senior Software Engineer &amp; Solutions Architect">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Amjed Mohammed — Senior Software Engineer &amp; Solutions Architect">
+    <meta name="twitter:description" content="10+ years designing and delivering enterprise web platforms, SaaS products and AI-integrated systems for the Saudi market.">
+    <meta name="twitter:image" content="https://amjedd.com/assets/img/og-cover.jpg">
+
+    <link rel="canonical" href="https://amjedd.com/">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%2338bdf8'/%3E%3Ctext x='50' y='68' font-family='monospace' font-size='46' font-weight='700' text-anchor='middle' fill='%2304121f'%3EAM%3C/text%3E%3C/svg%3E">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Set the theme before first paint to avoid a flash of the wrong colours -->
+    <script>
+        (function () {
+            document.documentElement.classList.add('js');
+            try {
+                var stored = localStorage.getItem('theme');
+                var theme = stored || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'dark');
             }
-            
-            .hero-text {
-                padding-right: 0;
-                margin-bottom: 50px;
-            }
-            
-            .social-links {
-                justify-content: center;
-            }
-            
-            .about-content {
-                flex-direction: column;
-            }
-            
-            .timeline::after {
-                left: 31px;
-            }
-            
-            .timeline-item .timeline-content {
-                width: calc(100% - 80px);
-                float: right;
-                padding: 15px;
-            }
-            
-            .timeline-item:nth-child(odd) .timeline-content {
-                float: right;
-            }
-            
-            .contact-container {
-                flex-direction: column;
-            }
-            
-            .contact-info, .contact-form {
-                margin-bottom: 30px;
-            }
-        }
-        
-        @media (max-width: 768px) {
-            nav {
-                flex-direction: column;
-            }
-            
-            .nav-links {
-                margin-top: 20px;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-            
-            .nav-links li {
-                margin: 5px 10px;
-            }
-            
-            .hero {
-                height: auto;
-                padding: 100px 0 50px;
-            }
-            
-            .hero-text h1 {
-                font-size: 36px;
-            }
-            
-            .skills-container {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+        })();
+    </script>
 </head>
 <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Icon sprite -->
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+        <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></symbol>
+        <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+        <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></symbol>
+        <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+        <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+        <symbol id="i-external" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></symbol>
+        <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></symbol>
+        <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></symbol>
+        <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+        <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+        <symbol id="i-building" viewBox="0 0 24 24"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-4"/><path d="M9 9h.01M9 13h.01M9 17h.01"/></symbol>
+        <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5M12 15V3"/></symbol>
+        <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
+        <symbol id="i-server" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><path d="M6 6h.01M6 18h.01"/></symbol>
+        <symbol id="i-layout" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></symbol>
+        <symbol id="i-mobile" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></symbol>
+        <symbol id="i-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"/></symbol>
+        <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></symbol>
+        <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 2 10 5-10 5L2 7l10-5z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></symbol>
+        <symbol id="i-cloud" viewBox="0 0 24 24"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></symbol>
+        <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
+        <symbol id="i-check" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m22 4-10 10.01-3-3"/></symbol>
+        <symbol id="i-users" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+        <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></symbol>
+        <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="7"/><path d="M8.21 13.89 7 23l5-3 5 3-1.21-9.12"/></symbol>
+        <symbol id="i-message" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></symbol>
+    </svg>
+
     <!-- Header -->
-    <header>
+    <header class="site-header" id="siteHeader">
         <div class="container">
-            <nav>
-                <div class="logo">
-                    <a href="#"><span>AM</span>JED</a>
-                </div>
-                <ul class="nav-links">
+            <nav class="nav" aria-label="Main">
+                <a class="brand" href="#home">
+                    <span class="brand-mark" aria-hidden="true">AM</span>
+                    <span>Amjed Mohammed</span>
+                </a>
+
+                <ul class="nav-links" id="navLinks">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
+
+                <div class="nav-actions">
+                    <button class="icon-btn theme-toggle" id="themeToggle" type="button" aria-label="Switch colour theme">
+                        <svg class="icon icon-sun" aria-hidden="true"><use href="#i-sun"></use></svg>
+                        <svg class="icon icon-moon" aria-hidden="true"><use href="#i-moon"></use></svg>
+                    </button>
+                    <button class="icon-btn nav-toggle" id="navToggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">
+                        <svg class="icon icon-menu" aria-hidden="true"><use href="#i-menu"></use></svg>
+                        <svg class="icon icon-close" aria-hidden="true"><use href="#i-close"></use></svg>
+                    </button>
+                </div>
             </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Amjed <span>Mohammed</span></h1>
-                    <p>Senior Software Engineer with 10 years of experience developing web applications and business intelligence solutions.</p>
-                    <a href="#contact" class="btn">Get In Touch</a>
-                    <div class="social-links">
-                        <a href="https://github.com/amjedd" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://linkedin.com/in/amjedd" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="mailto:amjed.hamud@gmail.com"><i class="fas fa-envelope"></i></a>
+    <main id="main">
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="hero-bg" style="background-image: url('assets/img/hero-bg.jpg')" aria-hidden="true"></div>
+            <div class="hero-veil" aria-hidden="true"></div>
+
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-text">
+                        <p class="hero-status">
+                            <span class="status-dot" aria-hidden="true"></span>
+                            Senior Software Engineer &amp; Solutions Architect at MSSC — Riyadh, KSA
+                        </p>
+
+                        <h1>Amjed <span class="accent">Mohammed</span></h1>
+
+                        <p class="hero-role">Senior Software Engineer <span>//</span> Solutions Architect</p>
+
+                        <p class="hero-lead">
+                            10+ years designing and delivering enterprise-grade web platforms, SaaS products
+                            and AI-integrated systems — specialised in ASP.NET Core, Angular, Flutter and
+                            microservices architecture, with a track record of GRC platforms, LMS/CRM systems
+                            and government-integrated solutions for the Saudi market.
+                        </p>
+
+                        <div class="hero-actions">
+                            <a class="btn btn--primary" href="#contact">
+                                <svg class="icon" aria-hidden="true"><use href="#i-mail"></use></svg>
+                                Get in touch
+                            </a>
+                            <a class="btn btn--ghost" href="assets/Amjed_Mohammed_Resume.pdf" download>
+                                <svg class="icon" aria-hidden="true"><use href="#i-download"></use></svg>
+                                Download CV
+                            </a>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://github.com/amjedd" target="_blank" rel="noopener" aria-label="GitHub profile">
+                                <svg class="icon" aria-hidden="true"><use href="#i-github"></use></svg>
+                            </a>
+                            <a href="https://linkedin.com/in/amjedd" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+                                <svg class="icon" aria-hidden="true"><use href="#i-linkedin"></use></svg>
+                            </a>
+                            <a href="mailto:amjed.hamud@gmail.com" aria-label="Send an email">
+                                <svg class="icon" aria-hidden="true"><use href="#i-mail"></use></svg>
+                            </a>
+                            <a href="tel:+966532224509" aria-label="Call by phone">
+                                <svg class="icon" aria-hidden="true"><use href="#i-phone"></use></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="hero-portrait">
+                        <img src="amjed.jpeg" alt="Portrait of Amjed Mohammed" width="330" height="330">
+                        <span class="portrait-badge">
+                            <svg class="icon" aria-hidden="true"><use href="#i-briefcase"></use></svg>
+                            10+ years in software
+                        </span>
                     </div>
                 </div>
-                <div class="hero-image">
-                    <img src="amjed.jpeg" alt="Amjed Mohammed">
+
+                <dl class="stats reveal">
+                    <div class="stat">
+                        <dt>10+</dt>
+                        <dd>Years of experience</dd>
+                    </div>
+                    <div class="stat">
+                        <dt>3</dt>
+                        <dd>Featured products</dd>
+                    </div>
+                    <div class="stat">
+                        <dt>6</dt>
+                        <dd>Companies &amp; clients</dd>
+                    </div>
+                </dl>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section section--alt" id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-copy reveal">
+                        <p class="eyebrow">About</p>
+                        <h2 class="section-title">Architecture-first engineering, end to end</h2>
+                        <p class="section-sub" style="margin-bottom:1.4rem">
+                            I lead projects from architecture and development through to deployment.
+                        </p>
+                        <p>
+                            I'm a <strong>Senior Software Engineer and Solutions Architect</strong> with over
+                            10 years of experience building enterprise-grade web platforms, SaaS products and
+                            AI-integrated systems. My work centres on ASP.NET Core, Angular, Flutter and
+                            microservices architecture.
+                        </p>
+                        <p>
+                            I've delivered <strong>GRC platforms, LMS and CRM systems, and government-integrated
+                            solutions</strong> for the Saudi market — including integrations with Jadarat, Nafath
+                            and Wathq. Day to day that means defining technical strategy, designing systems and
+                            integration patterns, and staying hands-on across the stack.
+                        </p>
+                        <p>
+                            Alongside client work, I'm the <strong>independent product owner and developer</strong>
+                            of several commercial platforms in production, with hands-on expertise in multi-cloud
+                            infrastructure (Azure, DigitalOcean, Alibaba), AI/LLM integration (RAG, vector
+                            databases, vLLM) and multi-tenant SaaS design.
+                        </p>
+                    </div>
+
+                    <aside class="info-card reveal">
+                        <h3>At a glance</h3>
+                        <ul class="info-list">
+                            <li>
+                                <svg class="icon" aria-hidden="true"><use href="#i-briefcase"></use></svg>
+                                <div>
+                                    <span class="label">Current role</span>
+                                    <span class="value">Senior Software Engineer &amp; Solutions Architect</span>
+                                </div>
+                            </li>
+                            <li>
+                                <svg class="icon" aria-hidden="true"><use href="#i-building"></use></svg>
+                                <div>
+                                    <span class="label">Company</span>
+                                    <span class="value">Management Solutions Systems Co. (MSSC)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <svg class="icon" aria-hidden="true"><use href="#i-pin"></use></svg>
+                                <div>
+                                    <span class="label">Location</span>
+                                    <span class="value">Riyadh, Saudi Arabia</span>
+                                </div>
+                            </li>
+                            <li>
+                                <svg class="icon" aria-hidden="true"><use href="#i-layers"></use></svg>
+                                <div>
+                                    <span class="label">Focus</span>
+                                    <span class="value">Enterprise platforms, multi-tenant SaaS, AI integration</span>
+                                </div>
+                            </li>
+                            <li>
+                                <svg class="icon" aria-hidden="true"><use href="#i-message"></use></svg>
+                                <div>
+                                    <span class="label">Languages</span>
+                                    <span class="value">Arabic (native), English (professional)</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </aside>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>About Me</h2>
-                    <p>I am a Senior Software Engineer with 10 years of experience developing web applications and business intelligence solutions using ASP.NET MVC, ASP.NET API, Angular, MySQL, and MS SQL. I'm skilled in architecting and executing customized, data-driven solutions, hosted both on-premise and on the cloud.</p>
-                    <p>My expertise includes requirements analysis, design, development, testing, maintenance, enhancement, and production support of business applications. I'm passionate about creating efficient, scalable software solutions that address complex business challenges.</p>
-                    <p>With a Bachelor of Science from the Faculty of Engineering at the University of Science and Technology in Sudan, I've built a solid foundation in software engineering principles that guide my approach to every project.</p>
+        <!-- Experience -->
+        <section class="section" id="experience">
+            <div class="container">
+                <div class="section-head reveal">
+                    <p class="eyebrow">Career</p>
+                    <h2 class="section-title">Work experience</h2>
+                    <p class="section-sub">A decade of building and leading software delivery across KSA and Sudan.</p>
+                </div>
+
+                <div class="timeline">
+                    <article class="tl-item tl-item--current reveal">
+                        <div class="tl-card">
+                            <div class="tl-top">
+                                <h3 class="tl-role">Senior Software Engineer &amp; Solutions Architect</h3>
+                                <span class="tl-date">09/2025 — Present</span>
+                            </div>
+                            <p class="tl-meta">
+                                <span class="company"><svg class="icon" aria-hidden="true"><use href="#i-building"></use></svg> Management Solutions Systems Co. (MSSC)</span>
+                                <span><svg class="icon" aria-hidden="true"><use href="#i-pin"></use></svg> Riyadh, KSA</span>
+                                <span><a href="https://mssc.com.sa" target="_blank" rel="noopener">mssc.com.sa</a></span>
+                            </p>
+                            <ul class="bullets">
+                                <li>Architected and developed an enterprise Learning Management System integrated with Saudi Jadarat — the national skills and certifications platform — enabling automated trainee enrollment, competency tracking and certification issuance.</li>
+                                <li>Designed and built a unified CRM + LMS platform for HSTC (Horizon Solutions for Training), consolidating student lifecycle management, course delivery, training operations and customer relationships into a single multi-tenant solution.</li>
+                                <li>Integrated AI and LLM capabilities for automated content processing, semantic search, intelligent assessment generation and adaptive learning recommendations.</li>
+                                <li>Acted as solution architect — defining technical strategy, system design and integration patterns with Saudi government services and third-party APIs.</li>
+                                <li>Led the migration of legacy modules to a modern ASP.NET Core + Angular stack with improved scalability, observability and deployment automation.</li>
+                                <li>Collaborated with business stakeholders to translate training and accreditation requirements into production-ready features aligned with Saudi regulatory standards.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="tl-item reveal">
+                        <div class="tl-card">
+                            <div class="tl-top">
+                                <h3 class="tl-role">Senior Software Developer</h3>
+                                <span class="tl-date">07/2023 — 09/2025</span>
+                            </div>
+                            <p class="tl-meta">
+                                <span class="company"><svg class="icon" aria-hidden="true"><use href="#i-building"></use></svg> HakTrak</span>
+                                <span><svg class="icon" aria-hidden="true"><use href="#i-pin"></use></svg> Riyadh, KSA</span>
+                            </p>
+                            <ul class="bullets">
+                                <li>Architected and delivered Comply360, a full-stack GRC platform, using ASP.NET Core Web API and Angular 18 with real-time dashboards powered by SignalR.</li>
+                                <li>Optimised system performance by integrating Redis caching for compliance reports and session management, reducing database query response times by 60%.</li>
+                                <li>Implemented background job processing with Hangfire for automated compliance scans, vendor risk assessments and scheduled SecurityScorecard data imports.</li>
+                                <li>Containerised applications using Docker (multi-stage builds) and established CI/CD pipelines across DigitalOcean, Alibaba Cloud and Hetzner environments.</li>
+                                <li>Led SecurityScorecard API integration using .NET HttpClient with retry and circuit-breaker policies for resilient external service communication.</li>
+                                <li>Configured SendGrid email services for automated compliance notifications, risk alerts and system-generated reports with delivery tracking.</li>
+                                <li>Established testing strategies (xUnit for .NET, Jasmine/Karma for Angular) achieving 90%+ code coverage, and mentored junior developers in modern engineering practices.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="tl-item reveal">
+                        <div class="tl-card">
+                            <div class="tl-top">
+                                <h3 class="tl-role">Senior Full Stack Developer</h3>
+                                <span class="tl-date">06/2021 — 06/2023</span>
+                            </div>
+                            <p class="tl-meta">
+                                <span class="company"><svg class="icon" aria-hidden="true"><use href="#i-building"></use></svg> Kafaaat</span>
+                                <span><svg class="icon" aria-hidden="true"><use href="#i-pin"></use></svg> Dammam, KSA</span>
+                            </p>
+                            <ul class="bullets">
+                                <li>Architected microservices-based solutions in .NET Core, each handling a single business capability and communicating via lightweight HTTP APIs and messaging.</li>
+                                <li>Implemented asynchronous, event-driven communication using RabbitMQ to decouple services and ensure reliable, scalable workflows.</li>
+                                <li>Built payment integration with Moyasar and global platform integrations with WhatsApp, LinkedIn, Nafath, Wathq, Twitter and Google — each encapsulated as an independent microservice.</li>
+                                <li>Containerised services with Docker and orchestrated them on Azure Kubernetes Service (AKS); designed CI/CD pipelines in Azure DevOps for automated builds, tests and deployments.</li>
+                                <li>Monitored production health via Azure Monitor and centralised logging using the ELK stack (Elasticsearch, Logstash, Kibana).</li>
+                                <li>Developed responsive Angular front-ends consuming microservices APIs, and authored unit, integration and contract tests to validate cross-service workflows.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="tl-item reveal">
+                        <div class="tl-card">
+                            <div class="tl-top">
+                                <h3 class="tl-role">Senior Full Stack Developer</h3>
+                                <span class="tl-date">04/2020 — 06/2021</span>
+                            </div>
+                            <p class="tl-meta">
+                                <span class="company"><svg class="icon" aria-hidden="true"><use href="#i-building"></use></svg> Oasis Computer Systems</span>
+                                <span><svg class="icon" aria-hidden="true"><use href="#i-pin"></use></svg> Khartoum, Sudan</span>
+                            </p>
+                            <ul class="bullets">
+                                <li>Designed and delivered two insurance web aggregator platforms (Applus and Almamoon Brokers) using ASP.NET Core, Angular, MS SQL Server and Redis.</li>
+                                <li>Implemented real-time integration with multiple insurance company APIs to submit user quote requests and process returned offers in real time.</li>
+                                <li>Integrated the HyperPay payment gateway for secure, end-to-end transaction processing and reconciliation.</li>
+                                <li>Architected reusable Angular components and services, focusing on performance, reusability and maintainability across both platforms.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="tl-item reveal">
+                        <div class="tl-card">
+                            <div class="tl-top">
+                                <h3 class="tl-role">Full Stack Developer</h3>
+                                <span class="tl-date">08/2017 — 03/2020</span>
+                            </div>
+                            <p class="tl-meta">
+                                <span class="company"><svg class="icon" aria-hidden="true"><use href="#i-building"></use></svg> LemonLabs for Technical Solutions</span>
+                                <span><svg class="icon" aria-hidden="true"><use href="#i-pin"></use></svg> Khartoum, Sudan</span>
+                            </p>
+                            <ul class="bullets">
+                                <li>Led a team of 15+ technical specialists, providing coaching, performance reviews and career development.</li>
+                                <li>Monitored the production environment to identify, document and escalate errors and bugs in collaboration with the development team for rapid resolution.</li>
+                                <li>Managed and optimised the ticketing system — logging, categorising, prioritising and tracking requests to ensure SLA compliance.</li>
+                                <li>Validated new features in staging environments and oversaw configuration management in production, applying updates and patches following best practices.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="tl-item reveal">
+                        <div class="tl-card">
+                            <div class="tl-top">
+                                <h3 class="tl-role">Software Engineer</h3>
+                                <span class="tl-date">12/2014 — 08/2017</span>
+                            </div>
+                            <p class="tl-meta">
+                                <span class="company"><svg class="icon" aria-hidden="true"><use href="#i-building"></use></svg> Insight for Multi Activities</span>
+                                <span><svg class="icon" aria-hidden="true"><use href="#i-pin"></use></svg> Khartoum, Sudan</span>
+                            </p>
+                            <ul class="bullets">
+                                <li>Developed and maintained a Diagnostic Clinic Management System handling patient appointments, medical records and doctor–patient workflows using C#, VB, SQL Server and ASP.NET.</li>
+                                <li>Built a Pharmacy Management System for prescription creation, inventory tracking and dispensing workflows, integrated with the clinic system.</li>
+                                <li>Developed a Laboratory Information System managing test ordering, result reporting, approval processes and automated notifications.</li>
+                            </ul>
+                        </div>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Experience Section -->
-    <section class="experience" id="experience">
-        <div class="container">
-            <h2>Work Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Senior Software Developer</h3>
-                        <div class="company"><i class="fas fa-building"></i> HakTrak</div>
-                        <div class="date">07/2023 - Present</div>
-                        <div class="location"><i class="fas fa-map-marker-alt"></i> Riyadh, KSA</div>
-                        <ul>
-                            <li>Developed a Governance, Risk, and Compliance (GRC) system named Comply360.</li>
-                            <li>Played a key role in backend development, ensuring robust and scalable system architecture.</li>
-                            <li>Led a team of developers, ensuring project timelines were met and maintaining high-quality code standards.</li>
-                            <li>Spearheaded the adoption of new technologies to improve development efficiency and application performance.</li>
-                            <li>Conducted code reviews and provided mentorship to junior developers.</li>
-                            <li>Contributed to the deployment and testing of the Rasid360 system, integrating it with SecurityScorecard.</li>
-                            <li>Attended business meetings to align project goals with stakeholder expectations.</li>
-                        </ul>
-                    </div>
+        <!-- Projects -->
+        <section class="section section--alt" id="projects">
+            <div class="container">
+                <div class="section-head section-head--center reveal">
+                    <p class="eyebrow">Selected work</p>
+                    <h2 class="section-title">Independent &amp; client projects</h2>
+                    <p class="section-sub">Products I own end to end, and platforms delivered for clients.</p>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Senior Full Stack Developer</h3>
-                        <div class="company"><i class="fas fa-building"></i> Kafaaat</div>
-                        <div class="date">06/2021 - 06/2023</div>
-                        <div class="location"><i class="fas fa-map-marker-alt"></i> Dammam, KSA</div>
-                        <ul>
-                            <li>Engineered two modern applications with .NET Core, Angular, MS SQL Server, and Redis.</li>
-                            <li>Developed all API services including payment integration with Moyasar.</li>
-                            <li>Integrations with different global platforms (WhatsApp, LinkedIn, Nafath, Wathq, Twitter and Google).</li>
-                            <li>Designed web pages using Angular and Bootstrap.</li>
-                            <li>Tested application functionality.</li>
-                            <li>Deployed applications in Microsoft Azure.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Senior Full Stack Developer</h3>
-                        <div class="company"><i class="fas fa-building"></i> Oasis Computer Systems</div>
-                        <div class="date">10/2020 - 06/2021</div>
-                        <div class="location"><i class="fas fa-map-marker-alt"></i> Khartoum, Sudan</div>
-                        <ul>
-                            <li>Designed and developed two Insurance Web Aggregators for Applus and Almamoon insurance brokers companies using ASP.NET Core, Angular, MS SQL Server and Redis.</li>
-                            <li>Integration with insurance companies API to send user request and receive quotes.</li>
-                            <li>Integration with Hyperpay payment API gateway.</li>
-                            <li>Designed Angular components and services.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Full Stack Developer</h3>
-                        <div class="company"><i class="fas fa-building"></i> Arab Sea Information Systems</div>
-                        <div class="date">04/2020 - 10/2020</div>
-                        <div class="location"><i class="fas fa-map-marker-alt"></i> Khartoum, Sudan</div>
-                        <ul>
-                            <li>Contributed in developing an ERP system (Accounting, HR, Stock, etc.) using ASP.NET MVC and SQL Server.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Technical Support Team Lead</h3>
-                        <div class="company"><i class="fas fa-building"></i> LemonLabs For Technical Solutions</div>
-                        <div class="date">08/2017 - 03/2020</div>
-                        <div class="location"><i class="fas fa-map-marker-alt"></i> Khartoum, Sudan</div>
-                        <ul>
-                            <li>Monitored production and reported errors and bugs to development team.</li>
-                            <li>Received dev related complaints from customer service and formatted reports for dev team.</li>
-                            <li>Led more than 15 employees.</li>
-                            <li>Tested new features in staging release.</li>
-                            <li>Managed app configuration in production.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Software Engineer</h3>
-                        <div class="company"><i class="fas fa-building"></i> Insight for Multi Activities</div>
-                        <div class="date">12/2014 - 08/2017</div>
-                        <div class="location"><i class="fas fa-map-marker-alt"></i> Khartoum, Sudan</div>
-                        <ul>
-                            <li>Developed desktop applications using C#, VB and SQL Server.</li>
-                            <li>Developed web applications using ASP.NET.</li>
-                        </ul>
-                    </div>
+
+                <div class="project-grid">
+                    <article class="project-card reveal">
+                        <div class="project-media">
+                            <span class="project-tag">Independent product</span>
+                            <img src="assets/img/project-grc.jpg" alt="Abstract illustration representing a governance, risk and compliance platform" loading="lazy" width="640" height="360">
+                        </div>
+                        <div class="project-body">
+                            <h3>Thubut (ثبوت) — GRC Platform</h3>
+                            <a class="project-link" href="https://thubut.co" target="_blank" rel="noopener">
+                                thubut.co
+                                <svg class="icon" aria-hidden="true"><use href="#i-external"></use></svg>
+                            </a>
+                            <p>
+                                <em>“Compliance, Proven.”</em> A unified Governance, Risk and Compliance platform
+                                for regulated organisations in Saudi Arabia — mapping PDPL, NCA ECC, SAMA CSF and
+                                ISO 27001 onto one persistent control framework so teams test once and comply many.
+                                Built on a Framework-as-Data model with deep closure-table hierarchies centred on a
+                                ControlInstance core, plus an AI layer for document understanding, control mapping
+                                and semantic search. Cryptographic audit trails, automated evidence collection via
+                                on-premises connectors, vendor governance and PDPL 72-hour breach tracking.
+                                Fully bilingual (RTL-native) and deployable inside air-gapped networks.
+                                Sole architect and developer.
+                            </p>
+                            <div class="chip-row">
+                                <span class="chip">PostgreSQL 16</span>
+                                <span class="chip">ASP.NET Core 10</span>
+                                <span class="chip">Angular 20</span>
+                                <span class="chip">Flutter 3</span>
+                                <span class="chip">Qdrant</span>
+                                <span class="chip">Redis</span>
+                                <span class="chip">MinIO</span>
+                                <span class="chip">Keycloak</span>
+                                <span class="chip">vLLM · Qwen 2.5</span>
+                                <span class="chip">BGE-M3</span>
+                                <span class="chip">Surya OCR</span>
+                                <span class="chip">Bilingual AR/EN</span>
+                                <span class="chip">On-premise / air-gapped</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-media">
+                            <span class="project-tag">Client project</span>
+                            <img src="assets/img/project-events.jpg" alt="Abstract illustration representing a conferences and events management platform" loading="lazy" width="640" height="360">
+                        </div>
+                        <div class="project-body">
+                            <h3>KFSHRC Conferences &amp; Events Platform</h3>
+                            <a class="project-link" href="https://motamarat.kfshrc.edu.sa" target="_blank" rel="noopener">
+                                motamarat.kfshrc.edu.sa
+                                <svg class="icon" aria-hidden="true"><use href="#i-external"></use></svg>
+                            </a>
+                            <p>
+                                The official conferences and events management platform for King Faisal Specialist
+                                Hospital &amp; Research Centre, one of the largest healthcare institutions in the
+                                Middle East. Contributed as part of the development team on registration workflows,
+                                event content management and integrations across the conference lifecycle.
+                            </p>
+                            <div class="chip-row">
+                                <span class="chip">ASP.NET Core</span>
+                                <span class="chip">Angular</span>
+                                <span class="chip">SQL Server</span>
+                                <span class="chip">Registration workflows</span>
+                                <span class="chip">CMS</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-media">
+                            <span class="project-tag">Sole developer</span>
+                            <img src="assets/img/project-amaaken.jpg" alt="Abstract illustration representing a venue booking marketplace" loading="lazy" width="640" height="360">
+                        </div>
+                        <div class="project-body">
+                            <h3>Amaaken (أماكن) — Venue Booking Platform</h3>
+                            <a class="project-link" href="https://amaaken.sa" target="_blank" rel="noopener">
+                                amaaken.sa
+                                <svg class="icon" aria-hidden="true"><use href="#i-external"></use></svg>
+                            </a>
+                            <p>
+                                A complete venue booking SaaS platform designed and developed from scratch —
+                                backend, frontend, mobile and infrastructure — covering venue listings,
+                                availability calendars, booking flows, payment processing and host/guest
+                                dashboards. Multi-tenant architecture, built for the Saudi market. Pre-launch.
+                            </p>
+                            <div class="chip-row">
+                                <span class="chip">ASP.NET Core</span>
+                                <span class="chip">Angular</span>
+                                <span class="chip">Flutter</span>
+                                <span class="chip">Multi-tenant SaaS</span>
+                                <span class="chip">Payments</span>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Skills Section -->
-    <section class="skills" id="skills">
-        <div class="container">
-            <h2>Skills & Expertise</h2>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h3>.NET Technologies</h3>
-                    <ul>
-                        <li>ASP.NET API</li>
-                        <li>ASP.NET MVC</li>
-                        <li>.NET Framework</li>
-                        <li>.NET Core</li>
-                        <li>ABP</li>
-                    </ul>
+        <!-- Skills -->
+        <section class="section" id="skills">
+            <div class="container">
+                <div class="section-head section-head--center reveal">
+                    <p class="eyebrow">Toolbox</p>
+                    <h2 class="section-title">Technical skills</h2>
+                    <p class="section-sub">The stack I design, build and ship with.</p>
                 </div>
-                <div class="skill-category">
-                    <h3>Frontend Technologies</h3>
-                    <ul>
-                        <li>Angular</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Bootstrap</li>
-                    </ul>
+
+                <div class="skills-grid">
+                    <article class="skill-card reveal">
+                        <div class="skill-head">
+                            <svg class="icon" aria-hidden="true"><use href="#i-server"></use></svg>
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="chip-row">
+                            <span class="chip">ASP.NET Core</span><span class="chip">C#</span><span class="chip">.NET 8</span>
+                            <span class="chip">Web API</span><span class="chip">MVC</span><span class="chip">Microservices</span>
+                            <span class="chip">Hangfire</span><span class="chip">SignalR</span><span class="chip">RabbitMQ</span>
+                            <span class="chip">gRPC</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <div class="skill-head">
+                            <svg class="icon" aria-hidden="true"><use href="#i-layout"></use></svg>
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="chip-row">
+                            <span class="chip">Angular 9–20</span><span class="chip">TypeScript</span><span class="chip">RxJS</span>
+                            <span class="chip">NgRx</span><span class="chip">Tailwind CSS</span><span class="chip">Bootstrap</span>
+                            <span class="chip">Angular Material</span><span class="chip">HTML5</span><span class="chip">CSS3</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <div class="skill-head">
+                            <svg class="icon" aria-hidden="true"><use href="#i-mobile"></use></svg>
+                            <h3>Mobile</h3>
+                        </div>
+                        <div class="chip-row">
+                            <span class="chip">Flutter</span><span class="chip">Dart</span>
+                            <span class="chip">Cross-platform development</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <div class="skill-head">
+                            <svg class="icon" aria-hidden="true"><use href="#i-database"></use></svg>
+                            <h3>Databases</h3>
+                        </div>
+                        <div class="chip-row">
+                            <span class="chip">PostgreSQL</span><span class="chip">MySQL</span><span class="chip">MS SQL Server</span>
+                            <span class="chip">MongoDB</span><span class="chip">Redis</span><span class="chip">EF Core</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <div class="skill-head">
+                            <svg class="icon" aria-hidden="true"><use href="#i-cpu"></use></svg>
+                            <h3>AI / ML</h3>
+                        </div>
+                        <div class="chip-row">
+                            <span class="chip">LLM integration</span><span class="chip">RAG</span><span class="chip">Qdrant</span>
+                            <span class="chip">BGE-M3 embeddings</span><span class="chip">vLLM · Qwen 2.5</span>
+                            <span class="chip">Semantic search</span><span class="chip">Surya OCR</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <div class="skill-head">
+                            <svg class="icon" aria-hidden="true"><use href="#i-layers"></use></svg>
+                            <h3>Architecture</h3>
+                        </div>
+                        <div class="chip-row">
+                            <span class="chip">Microservices</span><span class="chip">Multi-tenant SaaS</span>
+                            <span class="chip">Clean Architecture</span><span class="chip">CQRS</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <div class="skill-head">
+                            <svg class="icon" aria-hidden="true"><use href="#i-cloud"></use></svg>
+                            <h3>DevOps &amp; Cloud</h3>
+                        </div>
+                        <div class="chip-row">
+                            <span class="chip">Docker</span><span class="chip">Azure DevOps</span><span class="chip">GitHub Actions</span>
+                            <span class="chip">GitLab CI</span><span class="chip">Coolify</span><span class="chip">Nginx</span>
+                            <span class="chip">Microsoft Azure</span><span class="chip">DigitalOcean</span>
+                            <span class="chip">Alibaba Cloud (KSA)</span><span class="chip">Hetzner</span><span class="chip">AWS</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <div class="skill-head">
+                            <svg class="icon" aria-hidden="true"><use href="#i-globe"></use></svg>
+                            <h3>KSA integrations</h3>
+                        </div>
+                        <div class="chip-row">
+                            <span class="chip">Nafath (نفاذ)</span><span class="chip">Wathq (واثق)</span>
+                            <span class="chip">Jadarat</span><span class="chip">Moyasar</span>
+                            <span class="chip">HyperPay</span><span class="chip">SADAD</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <div class="skill-head">
+                            <svg class="icon" aria-hidden="true"><use href="#i-shield"></use></svg>
+                            <h3>Identity &amp; security</h3>
+                        </div>
+                        <div class="chip-row">
+                            <span class="chip">Keycloak</span><span class="chip">OAuth 2.0</span><span class="chip">JWT</span>
+                            <span class="chip">OpenID Connect</span><span class="chip">RBAC</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <div class="skill-head">
+                            <svg class="icon" aria-hidden="true"><use href="#i-check"></use></svg>
+                            <h3>Testing</h3>
+                        </div>
+                        <div class="chip-row">
+                            <span class="chip">xUnit</span><span class="chip">NUnit</span><span class="chip">Moq</span>
+                            <span class="chip">Jasmine</span><span class="chip">Karma</span><span class="chip">Jest</span>
+                            <span class="chip">Integration &amp; contract testing</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <div class="skill-head">
+                            <svg class="icon" aria-hidden="true"><use href="#i-users"></use></svg>
+                            <h3>Ways of working</h3>
+                        </div>
+                        <div class="chip-row">
+                            <span class="chip">Scrum</span><span class="chip">Agile</span><span class="chip">Code reviews</span>
+                            <span class="chip">Mentoring</span><span class="chip">Cross-functional leadership</span>
+                        </div>
+                    </article>
                 </div>
-                <div class="skill-category">
-                    <h3>Databases</h3>
-                    <ul>
-                        <li>MS SQL Server</li>
-                        <li>MySQL</li>
-                        <li>PostgreSQL</li>
-                        <li>MongoDB</li>
-                        <li>Redis</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>DevOps</h3>
-                    <ul>
-                        <li>Azure DevOps</li>
-                        <li>GitHub</li>
-                        <li>GitLab</li>
-                        <li>Jenkins</li>
-                        <li>CI/CD pipelines</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Deployment</h3>
-                    <ul>
-                        <li>Microsoft Azure</li>
-                        <li>Alibaba Cloud (KSA)</li>
-                        <li>DigitalOcean</li>
-                        <li>Hostgator</li>
-                        <li>Dreamhost</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Soft Skills</h3>
-                    <ul>
-                        <li>Team Leadership</li>
-                        <li>Problem Solving</li>
-                        <li>Requirements Gathering</li>
-                        <li>Design Patterns</li>
-                        <li>Project Management</li>
-                    </ul>
+
+                <div class="two-col" style="margin-top:1.15rem">
+                    <article class="plain-card reveal">
+                        <div class="skill-head">
+                            <svg class="icon" aria-hidden="true"><use href="#i-award"></use></svg>
+                            <h3>Education</h3>
+                        </div>
+                        <p style="font-weight:600">Bachelor of Science in Engineering</p>
+                        <p class="sub">Faculty of Engineering, University of Science and Technology — Khartoum, Sudan</p>
+                        <p class="sub" style="margin-top:.35rem">09/2009 — 07/2014</p>
+                    </article>
+
+                    <article class="plain-card reveal">
+                        <div class="skill-head">
+                            <svg class="icon" aria-hidden="true"><use href="#i-message"></use></svg>
+                            <h3>Languages</h3>
+                        </div>
+                        <div class="lang-row">
+                            <span>Arabic</span>
+                            <span class="level">Native</span>
+                        </div>
+                        <div class="lang-row">
+                            <span>English</span>
+                            <span class="level">Professional working</span>
+                        </div>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <h2>Get In Touch</h2>
-            <div class="contact-info" style="max-width: 600px; margin: 0 auto;">
-                <h3>Contact Information</h3>
-                <div class="contact-info-item">
-                    <i class="fas fa-envelope"></i>
-                    <p>amjed.hamud@gmail.com</p>
+        <!-- Contact -->
+        <section class="section section--alt" id="contact">
+            <div class="container">
+                <div class="section-head section-head--center reveal">
+                    <p class="eyebrow">Contact</p>
+                    <h2 class="section-title">Let's build something</h2>
+                    <p class="section-sub">Open to interesting problems, product work and architecture conversations.</p>
                 </div>
-                <div class="contact-info-item">
-                    <i class="fas fa-phone"></i>
-                    <p>+966 532224509</p>
+
+                <div class="contact-grid">
+                    <a class="contact-card reveal" href="mailto:amjed.hamud@gmail.com">
+                        <svg class="icon" aria-hidden="true"><use href="#i-mail"></use></svg>
+                        <span>
+                            <span class="label">Email</span>
+                            <span class="value">amjed.hamud@gmail.com</span>
+                        </span>
+                    </a>
+                    <a class="contact-card reveal" href="tel:+966532224509">
+                        <svg class="icon" aria-hidden="true"><use href="#i-phone"></use></svg>
+                        <span>
+                            <span class="label">Phone</span>
+                            <span class="value">+966 53 222 4509</span>
+                        </span>
+                    </a>
+                    <div class="contact-card reveal">
+                        <svg class="icon" aria-hidden="true"><use href="#i-pin"></use></svg>
+                        <span>
+                            <span class="label">Location</span>
+                            <span class="value">Riyadh, Saudi Arabia</span>
+                        </span>
+                    </div>
+                    <a class="contact-card reveal" href="https://linkedin.com/in/amjedd" target="_blank" rel="noopener">
+                        <svg class="icon" aria-hidden="true"><use href="#i-linkedin"></use></svg>
+                        <span>
+                            <span class="label">LinkedIn</span>
+                            <span class="value">linkedin.com/in/amjedd</span>
+                        </span>
+                    </a>
+                    <a class="contact-card reveal" href="https://github.com/amjedd" target="_blank" rel="noopener">
+                        <svg class="icon" aria-hidden="true"><use href="#i-github"></use></svg>
+                        <span>
+                            <span class="label">GitHub</span>
+                            <span class="value">github.com/amjedd</span>
+                        </span>
+                    </a>
+                    <a class="contact-card reveal" href="https://amjedd.com">
+                        <svg class="icon" aria-hidden="true"><use href="#i-globe"></use></svg>
+                        <span>
+                            <span class="label">Website</span>
+                            <span class="value">amjedd.com</span>
+                        </span>
+                    </a>
                 </div>
-                <div class="contact-info-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <p>Riyadh, Saudi Arabia</p>
-                </div>
-                <div class="contact-info-item">
-                    <i class="fab fa-github"></i>
-                    <p><a href="https://github.com/amjedd" target="_blank">github.com/amjedd</a></p>
-                </div>
-                <div class="contact-info-item">
-                    <i class="fab fa-linkedin"></i>
-                    <p><a href="https://linkedin.com/in/amjedd" target="_blank">linkedin.com/in/amjedd</a></p>
+
+                <div class="contact-cta reveal">
+                    <a class="btn btn--primary" href="assets/Amjed_Mohammed_Resume.pdf" download>
+                        <svg class="icon" aria-hidden="true"><use href="#i-download"></use></svg>
+                        Download my CV
+                    </a>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Footer -->
-    <footer>
+    <footer class="site-footer">
         <div class="container">
-            <p>&copy; 2025 Amjed Mohammed. All Rights Reserved.</p>
+            <div class="footer-inner">
+                <p>&copy; <span id="year">2026</span> Amjed Mohammed. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/amjedd" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://linkedin.com/in/amjedd" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="mailto:amjed.hamud@gmail.com">Email</a>
+                </div>
+            </div>
         </div>
     </footer>
 
-    <!-- Structured Data for SEO -->
+    <!-- Structured data -->
     <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Person",
-            "name": "Amjed Mohammed",
-            "jobTitle": "Senior Software Engineer",
-            "telephone": "+966532224509",
-            "email": "amjed.hamud@gmail.com",
-            "url": "https://amjedd.github.io",
-            "sameAs": [
-                "https://github.com/amjedd",
-                "https://linkedin.com/in/amjedd"
-            ],
-            "knowsAbout": [".NET", "Angular", "ASP.NET MVC", "ASP.NET API", "SQL Server", "MySQL", "Software Architecture"],
-            "workLocation": {
-                "@type": "Place",
-                "address": {
-                    "@type": "PostalAddress",
-                    "addressLocality": "Riyadh",
-                    "addressCountry": "Saudi Arabia"
-                }
-            },
-            "alumniOf": {
-                "@type": "EducationalOrganization",
-                "name": "University of Science and Technology",
-                "department": "Faculty of Engineering"
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Amjed Mohammed",
+        "jobTitle": "Senior Software Engineer & Solutions Architect",
+        "description": "Senior Software Engineer and Solutions Architect with 10+ years of experience designing and delivering enterprise-grade web platforms, SaaS products and AI-integrated systems.",
+        "telephone": "+966532224509",
+        "email": "amjed.hamud@gmail.com",
+        "url": "https://amjedd.com",
+        "image": "https://amjedd.com/amjed.jpeg",
+        "sameAs": [
+            "https://github.com/amjedd",
+            "https://linkedin.com/in/amjedd"
+        ],
+        "knowsLanguage": ["ar", "en"],
+        "knowsAbout": [
+            "ASP.NET Core", "C#", "Angular", "TypeScript", "Flutter", "Microservices",
+            "Multi-tenant SaaS", "PostgreSQL", "Redis", "Docker", "Azure",
+            "LLM Integration", "RAG", "Vector Databases", "Software Architecture"
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Management Solutions Systems Co. (MSSC)",
+            "url": "https://mssc.com.sa"
+        },
+        "workLocation": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Riyadh",
+                "addressCountry": "SA"
             }
+        },
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "University of Science and Technology",
+            "department": "Faculty of Engineering"
         }
+    }
     </script>
 
-    <script>
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-
-        // No form to submit
-    </script>
+    <script src="assets/js/main.js" defer></script>
 </body>
 </html>
